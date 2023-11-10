@@ -20,3 +20,11 @@ function areaLargestSquare(r) {
   return sqr;
 }
 ```
+## Education:
+* Belarusian State Technological University
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+## Languages:
+* Belarusian (Native)
+* Russian (С2)
+* English (A2)
+* Polish (A1)
