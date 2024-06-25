@@ -32,6 +32,3 @@ function equableTriangle(a,b,c) {
 * Russian: Intermediate
 * English: Elementary
 * Polish:  Basic
-
-
-hhhhhhhhhhhhhhh
