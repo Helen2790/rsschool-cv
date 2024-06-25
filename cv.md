@@ -8,3 +8,10 @@
 ### About Myself:
 I am an engineer by education. But I've always wanted to immerse myself in the world of programming. At school, I studied mathematics and physics in depth, so I always had a love for numbers and solving logical problems. Now I have studied the basics of frontend development and continue to dive into this topic. 
 Since my hobby is photography, I know Photoshop well. I believe that frontend development combines both creativity and programming.
+### Skills:
+* HTML5, CSS3
+* JavaScript
+* Git, GitHub
+* VS Code
+* Adobe Photoshop
+* Figma
