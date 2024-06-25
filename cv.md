@@ -25,3 +25,8 @@ function equableTriangle(a,b,c) {
   return ((a + b + c) === s)
 }
 ```
+### Languages:
+* Belarusian: Native
+* Russian: Intermediate
+* English: Elementary
+* Polish:  Basic
