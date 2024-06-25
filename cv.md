@@ -15,3 +15,13 @@ Since my hobby is photography, I know Photoshop well. I believe that frontend de
 * VS Code
 * Adobe Photoshop
 * Figma
+### Code example:
+A triangle is called an equable triangle if its area equals its perimeter. Return true, if it is an equable triangle, else return false. You will be provided with the length of sides of the triangle.
+
+```javascript
+function equableTriangle(a,b,c) {
+  let pp = (a + b + c) / 2
+  let s = Math.sqrt(pp * (pp - a) * (pp -b ) * (pp - c))
+  return ((a + b + c) === s)
+}
+```
