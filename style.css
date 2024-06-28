@@ -60,6 +60,7 @@ html {
 
 li>a {
 	transition: 0.3s;
+	color: rgb(37, 37, 37);
 }
 
 li>a:hover{
