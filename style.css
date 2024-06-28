@@ -59,6 +59,23 @@ html {
 	margin: 0 20px;
 }
 
+.my_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+h1::after {
+	content: '';
+	display: block;
+	margin: 10px auto;
+	width: 100px;
+	height: 2px;
+	background-color: black;
+}
+
 li>a {
 	transition: 0.3s;
 	color: rgb(37, 37, 37);
@@ -77,6 +94,17 @@ li>a:hover{
 
 .title img {
 	max-width: 200px;
+}
+
+.main {
+	padding: 20px 40px;
+	display: grid;
+	grid-template-columns: 300px auto;
+	gap: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
 }
 
 .footer {
