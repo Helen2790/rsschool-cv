@@ -33,3 +33,35 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style-type: none;}
 img{vertical-align: top;}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: rgb(186, 221, 209);
+}
+
+.nav>ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 50px;
+	margin: 0 20px;
+}
+
+li>a {
+	transition: 0.3s;
+}
+
+li>a:hover{
+	color: rgb(171, 142, 190);
+}
