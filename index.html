@@ -71,6 +71,19 @@
                     <li>Figma</li>
                 </ul>
             </section>
+            <section class="code">
+                <h2>Code example:</h2>
+                <p>
+                    A triangle is called an equable triangle if its area equals its perimeter. Return true, if it is an equable triangle, else return false. You will be provided with the length of sides of the triangle.
+                </p>
+                <pre>
+                    function equableTriangle(a,b,c) {
+                        let pp = (a + b + c) / 2
+                        let s = Math.sqrt(pp * (pp - a) * (pp -b ) * (pp - c))
+                        return ((a + b + c) === s)
+                      }
+                </pre>
+            </section>
         </main>
         <footer class="footer"></footer>
     </div>
