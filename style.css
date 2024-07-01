@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 0 auto;
+	gap: 40px;
+	font-size: 18px;
+}
+
+.nav {
+	background-color: rgb(186, 221, 209);
+}
+
+.nav>ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 50px;
+	margin: 0 20px;
+}
+
+.my_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+h1, h2 {
+	font-family: "Inconsolata", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+.main>section>h2 {
+	color: rgb(120, 161, 148);
+}
+
+h1::after {
+	content: '';
+	display: block;
+	margin: 10px auto;
+	width: 100px;
+	height: 2px;
+	background-color: black;
+}
+
+li>a {
+	transition: 0.3s;
+	color: rgb(37, 37, 37);
+}
+
+a:hover{
+	color: rgb(171, 142, 190);
+}
+
+.title {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.title img {
+	max-width: 200px;
+}
+
+.main {
+	padding: 20px 40px;
+	display: grid;
+	grid-template-columns: 300px auto;
+	gap: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+pre {
+	margin-top: 20px;
+}
+
+.svg>li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.svg>li::before {
+	content: url('assets/tick_tz1446h9y3hw\ \(1\).svg');
+	width: 10px;
+	height: 10px;
+	margin-right: 8px;
+	flex-shrink: 0;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgb(186, 221, 209);
+}
+
+.footer img {
+	max-width: 50px;
+}
